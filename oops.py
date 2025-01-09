@@ -53,14 +53,14 @@ class Student:
             return None
         if self.cpi >= 9.0:
             return "Excellent"
-        elif self.cpi >= 8.0:
+        if self.cpi >= 8.0:
             return "Very Good"
-        elif self.cpi >= 7.0:
+        if self.cpi >= 7.0:
             return "Good"
-        elif self.cpi >= 5.0:
+        if self.cpi >= 5.0:
             return "Average"
-        else:
-            return "Below Average"
+        
+        return "Below Average"
 
 
 # Example usage of the Student class
