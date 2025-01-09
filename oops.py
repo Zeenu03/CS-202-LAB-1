@@ -2,6 +2,7 @@
 # pylint: disable=missing-class-docstring
 # pylint: disable=missing-function-docstring
 # pylint: disable=no-else-return
+
 class Student:
     def __init__(self, name, age):
         self.name = name
@@ -59,7 +60,6 @@ class Student:
             return "Good"
         if self.cpi >= 5.0:
             return "Average"
-        
         return "Below Average"
 
 
