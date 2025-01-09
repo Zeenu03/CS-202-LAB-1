@@ -72,8 +72,8 @@ student1 = Student("Alice", 20)
 student1.display()
 
 # Calculate and display CPI
-grades = [8.0, 9.0, 7.0, 8.0, 10.0, 11.0, 6.0]
-student1.calculate_cpi(grades)
+grades_list = [8.0, 9.0, 7.0, 8.0, 10.0, 11.0, 6.0]
+student1.calculate_cpi(grades_list)
 student1.display_cpi()
 
 # Check scholarship eligibility
